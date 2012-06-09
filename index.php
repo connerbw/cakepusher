@@ -59,7 +59,8 @@ $keywords = rtrim($keywords, ', ');
 
     <p>
     Done for <a href="http://hackdays.ca/">#HackMTL</a> on June 9th 2012.<br />
-    APIs used: <a href="http://status.net/">Status.Net</a>, <a href="http://yellowapi.com">YellowAPI.com</a>
+    APIs used: <a href="http://status.net/">Status.Net</a>, <a href="http://yellowapi.com">YellowAPI.com</a><br />
+    Code availabe at <a href="https://github.com/connerbw/cakepusher">GitHub</a>.
     </p>
 
 
