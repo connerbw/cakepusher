@@ -29,7 +29,11 @@ $CONFIG['MAX_DISTANCE'] = 50;
 // Register here: http://developer.yellowapi.com/member/register
 // -----------------------------------------------------------------------------
 
+// API Key
 $CONFIG['YELLOW_API_KEY'] = '__REPLACE_ME__';
+
+// Server, No trailing slash!
+$CONFIG['YELLOW_API_SERVER'] = 'http://api.sandbox.yellowapi.com';
 
 // -----------------------------------------------------------------------------
 // Status.net API stuff
@@ -50,6 +54,9 @@ $CONFIG['OAUTH_CONSUMER_KEY'] = '__REPLACE_ME__';
 $CONFIG['OAUTH_CONSUMER_SECRET'] = '__REPLACE_ME__';
 $CONFIG['OAUTH_TOKEN'] = '__REPLACE_ME__';
 $CONFIG['OAUTH_TOKEN_SECRET'] = '__REPLACE_ME__';
+
+// Server, No trailing slash!
+$CONFIG['STATUSNET_SERVER'] = 'http://identi.ca';
 
 // -----------------------------------------------------------------------------
 // Generic PHP stuff

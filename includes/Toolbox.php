@@ -93,7 +93,7 @@ class Toolbox {
     */
     static function hustler()
     {
-        $url = "http://identi.ca/api/statuses/friends_timeline/{$GLOBALS['CONFIG']['IDENTICA_TIMELINE']}.xml";
+        $url = $GLOBALS['CONFIG']['STATUSNET_SERVER'] . "/api/statuses/friends_timeline/{$GLOBALS['CONFIG']['IDENTICA_TIMELINE']}.xml";
         $xml = simplexml_load_file($url);
 
         $updates = array();
@@ -229,7 +229,7 @@ class Toolbox {
 
         $server_ip = (isset($_SERVER['SERVER_ADDR'])) ? $_SERVER['SERVER_ADDR'] : '127.0.0.1';
 
-        $url = "http://api.sandbox.yellowapi.com/FindBusiness/?what={$keyword}&where=cZ{$lon1},{$lat1}&fmt=XML&pgLen=5&apikey={$GLOBALS['CONFIG']['YELLOW_API_KEY']}&UID={$server_ip}";
+        $url = $GLOBALS['CONFIG']['YELLOW_API_SERVER'] . "/FindBusiness/?what={$keyword}&where=cZ{$lon1},{$lat1}&fmt=XML&pgLen=5&apikey={$GLOBALS['CONFIG']['YELLOW_API_KEY']}&UID={$server_ip}";
 
         $xml = simplexml_load_file($url);
 
@@ -263,7 +263,7 @@ class Toolbox {
     */
     static function dent($updates) {
 
-        $url = 'http://identi.ca/api/statuses/update.xml';
+        $url = $GLOBALS['CONFIG']['STATUSNET_SERVER'] . '/api/statuses/update.xml';
         $rest = new RestStatusnet();
 
         foreach ($updates as $status) {
