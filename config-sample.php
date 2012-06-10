@@ -36,7 +36,7 @@ $CONFIG['YELLOW_API_SERVER'] = 'http://api.sandbox.yellowapi.com';
 // Status.net API stuff
 // -----------------------------------------------------------------------------
 
-// Identi.ca timeline to scan
+// Status.Net timeline to scan
 $CONFIG['STATUSNET_USERNAME'] = '__REPLACE_ME__';
 
 // Server, No trailing slash!
