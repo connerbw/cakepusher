@@ -1,0 +1,30 @@
+= Cake Pusher =
+
+_I'm your mamma, I'm your daddy, I'm that pastry in the alley..._
+
+Done for #HackMTL on June 9th 2012.
+
+More info: http://www.trotch.com/cakepusher/
+
+== Install ==
+
+1. mv ./sample-config.php ./config.php
+
+2. Edit ./config.php appropriately
+
+3. Setup a CRON job to execute cronjob.php at a time interval bigger or equal
+   to MAX_TIMELAPSE in config.php
+
+
+== Licenses ==
+
+Licenses used: MIT, LGPL 2.1, and GPL 3. Please read the headers of
+each individual file for appropriate info.
+
+Cake Pusher is far removed from the world of compiled languages that many of the
+FSF licenses are meant for. Since everything Cake Pusher deals with are human
+readable scripts, we hope everyone can agree that we are being respectful and
+allowing for exceptions where necessary. If you disagree please contact us so
+we can resolve the issue.
+
+Good times.
