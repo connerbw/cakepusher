@@ -121,6 +121,12 @@ class Toolbox {
                 {
                     $screen_name = (string) $node->user->screen_name;
                     $geo_point = (string) $node->geo->children('georss', true)->point;
+
+                    // Don't find yourself
+                    if ($screen_name == $GLOBALS['CONFIG']['IDENTICA_TIMELINE']) {
+                        continue;
+                    }
+
                     if (!isset($found[$screen_name])) {
                         // The most recent status, from top to bottom
                         $found[$screen_name] = $geo_point;
