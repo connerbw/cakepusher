@@ -38,7 +38,7 @@ $keywords = rtrim($keywords, ', ');
     </h2>
 
     <p>
-    <strong>Cake Pusher</strong> will periodically scan its own <a href="http://identi.ca/<?php echo $GLOBALS['CONFIG']['IDENTICA_TIMELINE']; ?>/all">Home Timeline</a> for the keywords:
+    <strong>Cake Pusher</strong> will periodically scan its own <a href="http://identi.ca/<?php echo $GLOBALS['CONFIG']['STATUSNET_TIMELINE']; ?>/all">Home Timeline</a> for the keywords:
     </p>
 
     <p><em>

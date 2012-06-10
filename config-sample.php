@@ -9,14 +9,11 @@ $CONFIG['DEBUG'] = true;
 // Vars, capitalized for easier recognition
 // -----------------------------------------------------------------------------
 
-// Word => [ Synonym1, Synonym2 ]
+// Word => [ Synonym1, Synonym2, ... ]
 $CONFIG['RECOMMENDATIONS'] = array(
     'cupcakes' => array('cupcakes', 'cupcake'),
     'cake' => array('cakes', 'cake'),
 );
-
-// Identi.ca timeline to scan
-$CONFIG['IDENTICA_USERNAME'] = '__REPLACE_ME__';
 
 // Seconds
 $CONFIG['MAX_TIMELAPSE'] = 30 * 60;
@@ -39,6 +36,12 @@ $CONFIG['YELLOW_API_SERVER'] = 'http://api.sandbox.yellowapi.com';
 // Status.net API stuff
 // -----------------------------------------------------------------------------
 
+// Identi.ca timeline to scan
+$CONFIG['STATUSNET_USERNAME'] = '__REPLACE_ME__';
+
+// Server, No trailing slash!
+$CONFIG['STATUSNET_SERVER'] = 'http://identi.ca';
+
 // Either password, or oauth
 $CONFIG['AUTH_TYPE'] = 'password';
 
@@ -54,9 +57,6 @@ $CONFIG['OAUTH_CONSUMER_KEY'] = '__REPLACE_ME__';
 $CONFIG['OAUTH_CONSUMER_SECRET'] = '__REPLACE_ME__';
 $CONFIG['OAUTH_TOKEN'] = '__REPLACE_ME__';
 $CONFIG['OAUTH_TOKEN_SECRET'] = '__REPLACE_ME__';
-
-// Server, No trailing slash!
-$CONFIG['STATUSNET_SERVER'] = 'http://identi.ca';
 
 // -----------------------------------------------------------------------------
 // Generic PHP stuff

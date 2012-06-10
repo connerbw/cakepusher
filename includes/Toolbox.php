@@ -93,7 +93,7 @@ class Toolbox {
     */
     static function hustler()
     {
-        $url = $GLOBALS['CONFIG']['STATUSNET_SERVER'] . "/api/statuses/friends_timeline/{$GLOBALS['CONFIG']['IDENTICA_TIMELINE']}.xml";
+        $url = $GLOBALS['CONFIG']['STATUSNET_SERVER'] . "/api/statuses/friends_timeline/{$GLOBALS['CONFIG']['STATUSNET_TIMELINE']}.xml";
         $xml = simplexml_load_file($url);
 
         $updates = array();
@@ -123,7 +123,7 @@ class Toolbox {
                     $geo_point = (string) $node->geo->children('georss', true)->point;
 
                     // Don't find yourself
-                    if ($screen_name == $GLOBALS['CONFIG']['IDENTICA_TIMELINE']) {
+                    if ($screen_name == $GLOBALS['CONFIG']['STATUSNET_TIMELINE']) {
                         continue;
                     }
 
@@ -257,7 +257,7 @@ class Toolbox {
 
 
     /**
-    * Post updates to identica
+    * Post updates to Status.Net
     *
     * @param array $updates
     */
