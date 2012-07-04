@@ -16,10 +16,21 @@ More info: http://www.trotch.com/cakepusher/
    to MAX_TIMELAPSE in config.php
 
 
+== Credits ==
+
+Written by Dac Chartrand of http://www.trotch.com/
+Cake-icon.png thanks to http://www.iconeden.com/
+CSS thanks to http://nicolasgallagher.com/pure-css-speech-bubbles/
+
+
 == Licenses ==
 
-Licenses used: MIT, LGPL 2.1, and GPL 3. Please read the headers of
+Licenses used: MIT, LGPL 2.1, GPL 2, and GPL 3. Please read the headers of
 each individual file for appropriate info.
+
+More specifically, the files `includes/RestAbstract.php` and
+`includes/RestStatusnet.php` are GPL3. The rest of the files are MIT, or
+dual licensed with MIT option.
 
 Cake Pusher is far removed from the world of compiled languages that many of the
 FSF licenses are meant for. Since everything Cake Pusher deals with are human
