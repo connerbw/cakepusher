@@ -3,7 +3,8 @@ Cake Pusher
 
 _I'm your mamma, I'm your daddy, I'm that pastry in the alley..._
 
-Done for (#HackMTL)[http://hackdays.ca/2012/06/hackmtl-the-hack-is-a-wrap/] on June 9th 2012.
+Done for [#HackMTL](http://hackdays.ca/2012/06/hackmtl-the-hack-is-a-wrap/) on June 9th 2012.
+
 Prizes won: Best use of the YellowAPI. Best big brand integration from Cossette.
 
 More info: http://www.trotch.com/cakepusher/
