@@ -1,12 +1,16 @@
-= Cake Pusher =
+Cake Pusher
+===========
 
 _I'm your mamma, I'm your daddy, I'm that pastry in the alley..._
 
-Done for #HackMTL on June 9th 2012.
+Done for (#HackMTL)[http://hackdays.ca/2012/06/hackmtl-the-hack-is-a-wrap/] on June 9th 2012.
+Prizes won: Best use of the YellowAPI. Best big brand integration from Cossette.
 
 More info: http://www.trotch.com/cakepusher/
 
-== Install ==
+
+Install
+-------
 
 1. mv ./sample-config.php ./config.php
 
@@ -16,14 +20,18 @@ More info: http://www.trotch.com/cakepusher/
    to MAX_TIMELAPSE in config.php
 
 
-== Credits ==
+Credits
+-------
 
 Written by Dac Chartrand of http://www.trotch.com/
 Cake-icon.png thanks to http://www.iconeden.com/
 CSS thanks to http://nicolasgallagher.com/pure-css-speech-bubbles/
 
 
-== Licenses ==
+License(s)
+----------
+
+Hackfest clusterfudge.
 
 Licenses used: MIT, LGPL 2.1, GPL 2, and GPL 3. Please read the headers of
 each individual file for appropriate info.
@@ -31,11 +39,5 @@ each individual file for appropriate info.
 More specifically, the files `includes/RestAbstract.php` and
 `includes/RestStatusnet.php` are GPL3. The rest of the files are MIT, or
 dual licensed with MIT option.
-
-Cake Pusher is far removed from the world of compiled languages that many of the
-FSF licenses are meant for. Since everything Cake Pusher deals with are human
-readable scripts, we hope everyone can agree that we are being respectful and
-allowing for exceptions where necessary. If you disagree please contact us so
-we can resolve the issue.
 
 Good times.
